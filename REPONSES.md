@@ -8,7 +8,7 @@
 
 **Q4.** Erreur : "class Salut is public, should be declared in a file named Salut.java". Règle : une classe publique doit porter le même nom que son fichier.
 
-**Q5.** Oui, VS Code souligne la faute en direct avant toute exécution (Language Support for Java). En Python, Pylance signale aussi une parenthèse manquante ; la différence est que Python ne bloque qu'au lancement du script.
+**Q5.** Oui, VS Code souligne la faute en direct avant toute exécution (Language Support for Java). En Python, Pylance signale aussi une parenthèse manquante  la différence est que Python ne bloque qu'au lancement du script.
 
 **Q6.** Java refuse de compiler int x = "texte"; (incompatible types) car le typage est vérifié à la compilation. En Python, x: int = "texte" s'exécute : les annotations de type ne sont pas vérifiées par l'interpréteur.
 
